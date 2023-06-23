@@ -1,60 +1,38 @@
 import React from 'react';
-import {Image, Text} from 'react-native';
 
-import {GeneralCardStyling, ChildCardStyling} from './styles';
+import {GeneralCardStyling, ChildCardStyling, Title, Img} from './styles';
 
 const Cards = () => {
   return (
     <>
       <GeneralCardStyling>
         <ChildCardStyling>
-          <Image
-            style={{width: 50, height: 50}}
-            source={require('../../assets/img/manicurePedicure.png')}
-          />
-          <Text>Manicure e Pedicure</Text>
+          <Img source={require('../../assets/img/manicurePedicure.png')} />
+          <Title>Manicure e Pedicure</Title>
         </ChildCardStyling>
         <ChildCardStyling>
-          <Image
-            style={{width: 50, height: 50}}
-            source={require('../../assets/img/sobrancelha.png')}
-          />
-          <Text>Designer de Sobrancelha</Text>
+          <Img source={require('../../assets/img/sobrancelha.png')} />
+          <Title>Designer de Sobrancelha</Title>
         </ChildCardStyling>
         <ChildCardStyling>
-          <Image
-            style={{width: 50, height: 50}}
-            source={require('../../assets/img/depilacao.png')}
-          />
-          <Text>Depilação</Text>
+          <Img source={require('../../assets/img/depilacao.png')} />
+          <Title>Depilação</Title>
         </ChildCardStyling>
         <ChildCardStyling>
-          <Image
-            style={{width: 50, height: 50}}
-            source={require('../../assets/img/servicoDomicilio.png')}
-          />
-          <Text>Serviços a Domicílio</Text>
+          <Img source={require('../../assets/img/servicoDomicilio.png')} />
+          <Title>Serviços a Domicílio</Title>
         </ChildCardStyling>
         <ChildCardStyling>
-          <Image
-            style={{width: 50, height: 50}}
-            source={require('../../assets/img/cilios.png')}
-          />
-          <Text>Alongamento de Cílios</Text>
+          <Img source={require('../../assets/img/cilios.png')} />
+          <Title>Alongamento de Cílios</Title>
         </ChildCardStyling>
         <ChildCardStyling>
-          <Image
-            style={{width: 50, height: 50}}
-            source={require('../../assets/img/limpezaDePele.png')}
-          />
-          <Text>Limpeza de pele</Text>
+          <Img source={require('../../assets/img/limpezaDePele.png')} />
+          <Title>Limpeza de pele</Title>
         </ChildCardStyling>
         <ChildCardStyling>
-          <Image
-            style={{width: 50, height: 50}}
-            source={require('../../assets/img/cosmeticos.png')}
-          />
-          <Text>Cosmeticos</Text>
+          <Img source={require('../../assets/img/cosmeticos.png')} />
+          <Title>Cosmeticos</Title>
         </ChildCardStyling>
       </GeneralCardStyling>
     </>
